@@ -1,0 +1,20 @@
+package com.hspedu.collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+public class Collections_ {
+	public static void main(String[] args) {
+		ArrayList list1 = new ArrayList();
+		list1.add("jack");
+		System.out.println(list1);
+		
+		HashMap hashMap = new HashMap();
+		hashMap.put(1, "new");
+		hashMap.put(2, "old");
+		System.out.println(hashMap);
+		
+	}
+}

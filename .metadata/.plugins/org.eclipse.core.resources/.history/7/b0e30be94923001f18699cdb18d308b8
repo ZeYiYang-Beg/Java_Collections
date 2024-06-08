@@ -1,0 +1,16 @@
+package com.hspedu.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionMethod_ {
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		// list.add()可以存放任何类型的对象
+		list.add("String");
+		list.add(10);
+		
+		
+	}
+
+}

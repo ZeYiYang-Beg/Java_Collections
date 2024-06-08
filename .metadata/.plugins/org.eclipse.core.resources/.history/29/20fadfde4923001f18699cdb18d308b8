@@ -1,0 +1,12 @@
+package com.hspedu.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionMethod_ {
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		
+	}
+
+}

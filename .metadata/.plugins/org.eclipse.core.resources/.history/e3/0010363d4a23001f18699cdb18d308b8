@@ -1,0 +1,22 @@
+package com.hspedu.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionMethod_ {
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		// list.add()可以存放任何类型的对象
+		list.add("String");
+		list.add(10); // equals to list.add(new Integer(10));
+		list.add(true);
+		System.out.println(list);
+		
+		// list.remove() 可以删除指定对象或索引
+		list.remove(0);
+		System.out.println(list);
+		list.remove("Sting");
+		System.out.println(list);
+	}
+
+}
